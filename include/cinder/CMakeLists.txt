@@ -45,7 +45,6 @@ add_sources(Arcball.h
 			Display.h
 			Easing.h
 			Exception.h
-			files.txt
 			Filesystem.h
 			Filter.h
 			Font.h
