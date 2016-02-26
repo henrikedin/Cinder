@@ -1,0 +1,9 @@
+add_sources(AppImplMsw.h
+			AppImplMswBasic.h
+			AppImplMswScreenSaver.h
+			AppMsw.h
+			PlatformMsw.h
+			RendererImpl2dGdi.h
+			RendererImplGlAngle.h
+			RendererImplGlMsw.h
+			RendererImplMsw.h)

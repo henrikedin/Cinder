@@ -1,0 +1,1 @@
+add_sources(res_books_uncoupled.h)

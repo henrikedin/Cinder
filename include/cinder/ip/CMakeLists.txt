@@ -1,0 +1,10 @@
+add_sources(Blend.h
+			EdgeDetect.h
+			Fill.h
+			Flip.h
+			Grayscale.h
+			Hdr.h
+			Premultiply.h
+			Resize.h
+			Threshold.h
+			Trim.h)

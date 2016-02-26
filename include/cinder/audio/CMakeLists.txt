@@ -1,0 +1,33 @@
+if (MSVC)
+	add_subdirectory(msw)
+endif()
+
+add_sources(audio.h
+			Buffer.h
+			ChannelRouterNode.h
+			Context.h
+			DelayNode.h
+			Device.h
+			Exception.h
+			FileOggVorbis.h
+			FilterNode.h
+			GainNode.h
+			GenNode.h
+			InputNode.h
+			MonitorNode.h
+			Node.h
+			NodeEffects.h
+			NodeMath.h
+			OutputNode.h
+			PanNode.h
+			Param.h
+			SamplePlayerNode.h
+			SampleRecorderNode.h
+			SampleType.h
+			Source.h
+			Target.h
+			Utilities.h
+			Voice.h
+			WaveformType.h
+			WaveTable.h
+)

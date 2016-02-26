@@ -1,0 +1,22 @@
+add_sources(AntPerfTimer.h
+			AntTweakBar.h
+			LoadOGL.cpp
+			LoadOGL.h
+			LoadOGLCore.cpp
+			LoadOGLCore.h
+			resource.h
+			TwBar.cpp
+			TwBar.h
+			TwColors.cpp
+			TwColors.h
+			TwFonts.cpp
+			TwFonts.h
+			TwGraph.h
+			TwMgr.cpp
+			TwMgr.h
+			TwOpenGL.cpp
+			TwOpenGL.h
+			TwOpenGLCore.cpp
+			TwOpenGLCore.h
+			TwPrecomp.cpp
+			TwPrecomp.h)

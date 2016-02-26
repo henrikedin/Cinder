@@ -1,0 +1,28 @@
+add_sources(Batch.h
+			BufferObj.h
+			BufferTexture.h
+			ConstantConversions.h
+			Context.h
+			draw.h
+			Environment.h
+			Fbo.h
+			gl.h
+			GlslProg.h
+			Pbo.h
+			platform.h
+			Query.h
+			scoped.h
+			Shader.h
+			ShaderPreprocessor.h
+			Ssbo.h
+			Sync.h
+			Texture.h
+			TextureFont.h
+			TextureFormatParsers.h
+			TransformFeedbackObj.h
+			Ubo.h
+			Vao.h
+			Vbo.h
+			VboMesh.h
+			wrapper.h
+)

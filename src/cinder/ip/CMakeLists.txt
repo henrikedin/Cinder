@@ -1,0 +1,10 @@
+add_sources(Blend.cpp
+			EdgeDetect.cpp
+			Fill.cpp
+			Flip.cpp
+			Grayscale.cpp
+			Hdr.cpp
+			Premultiply.cpp
+			Resize.cpp
+			Threshold.cpp
+			Trim.cpp)

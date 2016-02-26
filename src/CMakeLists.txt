@@ -1,0 +1,12 @@
+add_subdirectory(AntTweakBar)
+add_subdirectory(cinder)
+add_subdirectory(glload)
+add_subdirectory(jsoncpp)
+add_subdirectory(libtess2)
+add_subdirectory(linebreak)
+add_subdirectory(oggvorbis)
+add_subdirectory(r8brain)
+add_subdirectory(tinyexr)
+add_subdirectory(videoInput)
+
+add_sources()

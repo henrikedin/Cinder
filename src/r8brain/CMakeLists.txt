@@ -1,0 +1,10 @@
+add_sources(CDSPBlockConvolver.h
+			CDSPFIRFilter.h
+			CDSPFracInterpolator.h
+			CDSPRealFFT.h
+			CDSPResampler.h
+			CDSPSincFilterGen.h
+			fft4g.h
+			r8bbase.cpp
+			r8bbase.h
+			r8bconf.h)

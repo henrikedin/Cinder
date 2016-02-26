@@ -1,0 +1,104 @@
+add_subdirectory(app)
+add_subdirectory(audio)
+if (APPLE)
+	add_subdirectory(cocoa)
+endif()
+add_subdirectory(gl)
+add_subdirectory(ip)
+if (MSVC)
+	add_subdirectory(msw)
+endif()
+add_subdirectory(params)
+add_subdirectory(qtime)
+add_subdirectory(svg)
+
+add_sources(Arcball.h
+			Area.h
+			AxisAlignedBox.h
+			BandedMatrix.h
+			Base64.h
+			Breakpoint.h
+			BSpline.h
+			BSplineFit.h
+			Buffer.h
+			Camera.h
+			CameraUi.h
+			Capture.h
+			CaptureImplAvFoundation.h
+			CaptureImplCocoaDummy.h
+			CaptureImplDirectShow.h
+			Channel.h
+			ChanTraits.h
+			Cinder.h
+			CinderAssert.h
+			CinderGlm.h
+			CinderMath.h
+			CinderResources.h
+			Clipboard.h
+			CMakeLists.txt
+			Color.h
+			ConcurrentCircularBuffer.h
+			ConvexHull.h
+			CurrentFunction.h
+			DataSource.h
+			DataTarget.h
+			Display.h
+			Easing.h
+			Exception.h
+			files.txt
+			Filesystem.h
+			Filter.h
+			Font.h
+			Frustum.h
+			Function.h
+			GeomIo.h
+			ImageFileTinyExr.h
+			ImageIo.h
+			ImageSourceFileQuartz.h
+			ImageSourceFileRadiance.h
+			ImageSourceFileStbImage.h
+			ImageSourceFileWic.h
+			ImageSourcePng.h
+			ImageTargetFileQuartz.h
+			ImageTargetFileStbImage.h
+			ImageTargetFileWic.h
+			Json.h
+			KdTree.h
+			Log.h
+			Matrix.h
+			Matrix22.h
+			Matrix33.h
+			Matrix44.h
+			Noncopyable.h
+			ObjLoader.h
+			Path2d.h
+			Perlin.h
+			Plane.h
+			PolyLine.h
+			Quaternion.h
+			Rand.h
+			Ray.h
+			Rect.h
+			Serial.h
+			Shape2d.h
+			Signals.h
+			Sphere.h
+			Stream.h
+			Surface.h
+			System.h
+			Text.h
+			Thread.h
+			Timeline.h
+			TimelineItem.h
+			Timer.h
+			Triangulate.h
+			TriMesh.h
+			Tween.h
+			Unicode.h
+			Url.h
+			UrlImplCocoa.h
+			UrlImplCurl.h
+			UrlImplWinInet.h
+			Utilities.h
+			Vector.h
+			Xml.h)
