@@ -7,6 +7,9 @@ add_subdirectory(linebreak)
 add_subdirectory(oggvorbis)
 add_subdirectory(r8brain)
 add_subdirectory(tinyexr)
-add_subdirectory(videoInput)
+
+if (MSVC)
+	add_subdirectory(videoInput)
+endif()
 
 add_sources()

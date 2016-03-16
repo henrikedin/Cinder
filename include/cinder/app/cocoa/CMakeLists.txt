@@ -1,0 +1,15 @@
+add_sources(
+AppCocoaTouch.h
+AppCocoaView.h
+AppImplCocoaTouch.h
+AppImplMac.h
+AppImplMacScreenSaver.h
+AppMac.h
+CinderViewCocoaTouch.h
+CinderViewMac.h
+PlatformCocoa.h
+RendererImpl2dCocoaTouchQuartz.h
+RendererImpl2dMacQuartz.h
+RendererImplGlCocoaTouch.h
+RendererImplGlMac.h
+)

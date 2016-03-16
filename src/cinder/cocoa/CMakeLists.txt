@@ -1,2 +1,5 @@
-add_sources(CinderCocoa.mm
-			CinderCocoaTouch.mm)
+if (APPLE)
+	add_sources(CinderCocoa.mm)
+elseif (IPHONE)
+	add_sources(CinderCocoaTouch.mm)
+endif()

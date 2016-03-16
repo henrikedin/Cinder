@@ -1,6 +1,8 @@
 add_subdirectory(dsp)
 if (MSVC)
 	add_subdirectory(msw)
+elseif(APPLE)
+	add_subdirectory(cocoa)
 endif()
 
 add_sources(ChannelRouterNode.cpp

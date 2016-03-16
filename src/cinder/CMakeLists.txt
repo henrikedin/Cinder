@@ -21,7 +21,6 @@ add_sources(Area.cpp
 			Camera.cpp
 			CameraUi.cpp
 			Capture.cpp
-			CaptureImplDirectShow.cpp
 			Channel.cpp
 			CinderAssert.cpp
 			CinderMath.cpp
@@ -38,9 +37,7 @@ add_sources(Area.cpp
 			ImageFileTinyExr.cpp
 			ImageIo.cpp
 			ImageSourceFileRadiance.cpp
-			ImageSourceFileWic.cpp
 			ImageSourcePng.cpp
-			ImageTargetFileWic.cpp
 			Json.cpp
 			Log.cpp
 			Matrix.cpp
@@ -68,19 +65,22 @@ add_sources(Area.cpp
 			Tween.cpp
 			Unicode.cpp
 			Url.cpp
-			UrlImplWinInet.cpp
 			Utilities.cpp
 			Xml.cpp
 )
 
-if (APPLE)
-add_sources(ImageSourceFileQuartz.cpp
+if (MSVC)
+	add_sources(CaptureImplDirectShow.cpp
+			ImageSourceFileWic.cpp
+			ImageTargetFileWic.cpp
+			UrlImplWinInet.cpp)
+elseif (APPLE)
+	add_sources(ImageSourceFileQuartz.cpp
 			ImageTargetFileQuartz.cpp
-			ImageSourceFileStbImage.cpp
-			ImageTargetFileStbImage.cpp
-			UrlImplCurl.cpp
 			CaptureImplAvFoundation.mm
-			CaptureImplCocoaDummy.mm
-			CaptureImplQtKit.mm
 			UrlImplCocoa.mm)
+elseif (IPHONE)
+	add_sources()
+elseif (IPHONE_SIM)
+	add_sources(CaptureImplCocoaDummy.mm)
 endif()
